@@ -9,7 +9,8 @@
     "banner banner banner"
     "Tventa Tventa Tventa"
     "main main main"
-    "Tarriendo Tarriendo Tarriendo";
+    "Tarriendo Tarriendo Tarriendo"
+    "rent rent rent";
 }
 .barra-navegacion {
   grid-area: navbar;
@@ -30,6 +31,11 @@
 .cards-box {
   display: grid;
   grid-area: main;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cards-box2 {
+  display: grid;
+  grid-area: rent;
   grid-template-columns: 1fr 1fr 1fr;
 }
 

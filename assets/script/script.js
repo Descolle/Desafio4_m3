@@ -41,3 +41,47 @@ for (const mazo of mazos) {
   `;
 }
 card.innerHTML = cardContent;
+
+const card2 = document.querySelector(".cards-box2");
+const arriendos = [
+  {
+    src: "../img/Purrely.jpeg",
+    Nombre: "Tearlaments",
+    Tipo: "Control/Aggro",
+    Atributo: "Oscuridad",
+    Valor: "200 USD",
+    descr:
+      "mazo centrado en botar cartas del mazo al cementerio para activar poderosos efectos que permitiran acceso al Mazo Extra invocando poderosos Monstruos de Fusión",
+  },
+  {
+    src: "../img/Purrely.jpeg",
+    Nombre: "Mementotlan",
+    Tipo: "Control",
+    Atributo: "Oscuridad",
+    Valor: "100 USD",
+    descr:
+      "mazo centrado en botar cartas del mazo al cementerio para activar poderosos efectos que permitiran acceso al Mazo Extra invocando poderosos Monstruos de Fusión",
+  },
+  {
+    src: "https://cdn.ygorganization.com/2023/07/purrely.jpg",
+    Nombre: "Purrely",
+    Tipo: "Control",
+    Atributo: "Luz",
+    Valor: "150 USD",
+    descr:
+      "mazo centrado en botar cartas del mazo al cementerio para activar poderosos efectos que permitiran acceso al Mazo Extra invocando poderosos Monstruos de Fusión",
+  },
+];
+let cardContent2 = "";
+for (const arriendo of arriendos) {
+  cardContent2 += `
+    <div class='mazo'>
+      <img src="${arriendo.src}" alt="${arriendo.Nombre}">
+      <h5>Mazo: ${arriendo.Nombre}</h5>
+      <h5>Valor: ${arriendo.Valor}</h5>
+      <p>Tipo: ${arriendo.Tipo}<p>
+      <p>${arriendo.descr}</p>
+    </div>
+  `;
+}
+card2.innerHTML = cardContent2;
