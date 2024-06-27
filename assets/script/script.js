@@ -19,7 +19,7 @@ const mazos = [
       "mazo centrado en botar cartas del mazo al cementerio para activar poderosos efectos que permitiran acceso al Mazo Extra invocando poderosos Monstruos de Fusión",
   },
   {
-    src: "../img/Purrely.jpeg",
+    src: "https://cdn.ygorganization.com/2023/07/purrely.jpg",
     Nombre: "Purrely",
     Tipo: "Control",
     Atributo: "Luz",
@@ -33,10 +33,9 @@ for (const mazo of mazos) {
   cardContent += `
     <div class='mazo'>
       <img src="${mazo.src}" alt="${mazo.Nombre}">
-      <h3>Mazo: ${mazo.Nombre}</h3>
-      <h4>Valor: ${mazo.Valor}</h4>
-      <h4>Tipo: ${mazo.Tipo}</h4>
-      <h4>Atributo: ${mazo.Atributo}</h4>
+      <h5>Mazo: ${mazo.Nombre}</h5>
+      <h5>Valor: ${mazo.Valor}</h5>
+      <p>Tipo: ${mazo.Tipo}<p>
       <p>${mazo.descr}</p>
     </div>
   `;

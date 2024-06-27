@@ -8,7 +8,8 @@
     "navbar navbar navbar"
     "banner banner banner"
     "Tventa Tventa Tventa"
-    "main main main";
+    "main main main"
+    "Tarriendo Tarriendo Tarriendo";
 }
 .barra-navegacion {
   grid-area: navbar;
@@ -22,6 +23,10 @@
   display: grid;
   grid-area: Tventa;
 }
+.Tarriendo {
+  display: grid;
+  grid-area: Tarriendo;
+}
 .cards-box {
   display: grid;
   grid-area: main;
@@ -31,12 +36,13 @@
 /*Recordar que los .js crean un div con la clase dada*/
 .mazo {
   width: 300px;
-  height: 400px;
+  height: 500px;
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
 }
 
 .mazo img {
-background-image: url(../img/Purrely.jpeg);
+width: 20vh;
+height: 20vh;
 }
