@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.Father-container {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "banner banner banner"
+    "Tventa Tventa Tventa"
+    "main main main";
+}
+.barra-navegacion {
+  grid-area: navbar;
+  background-color: violet;
+}
+.banner {
+  grid-area: banner;
+  display: flex;
+}
+.Tventas {
+  display: grid;
+  grid-area: Tventa;
+}
+.cards-box {
+  display: grid;
+  grid-area: main;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*Recordar que los .js crean un div con la clase dada*/
+.mazo {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mazo img {
+background-image: url(../img/Purrely.jpeg);
+}
