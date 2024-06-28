@@ -73,6 +73,7 @@
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
+  border-radius: 2px;
 }
 
 .mazo img {
@@ -106,7 +107,7 @@ border: 1px solid #ccc
   grid-area: Tarriendo;
   margin-left: 200px;
 }
-.cards-box2V {
+.cards-box2v {
   display: grid;
   grid-area: rent2;
   grid-template-columns: 1fr 1fr 1fr;
