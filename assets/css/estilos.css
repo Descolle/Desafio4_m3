@@ -66,8 +66,6 @@
   color: white;
 }
 
-
-
 /*Recordar que los .js crean un div con la clase dada*/
 .mazo {
   width: 300px;
@@ -82,3 +80,6 @@ width: 20vh;
 height: 20vh;
 border: 1px solid #ccc
 }
+
+
+/* Aca va el CSS de la página de arriendo.
