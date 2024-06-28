@@ -27,6 +27,42 @@ const arriendos = [
     descr:
       "¿Quieres sentirte como Maximilian Pegasus? Con este mazo Toon podras hacer todas las jugadas que quieras",
   },
+  {
+    src: "https://ygorganization.com/wp-content/uploads/2022/12/Tevqc2tZ-unnamed-file.webp",
+    Nombre: "Amazement",
+    Tipo: "Control",
+    Atributo: "Luz",
+    Valor: "150 USD",
+    descr:
+      "This Deck is focused on Amazement Administrator Arlekino, along with the many Attractions at his show! The Attractions are Trap Cards that equip to monsters and apply different effects based on who controls that monster",
+  },
+  {
+    src: "https://preview.redd.it/so-recently-ive-started-building-a-armed-dragon-deck-but-i-v0-fyx7xvfcqzpa1.jpg?width=640&crop=smart&auto=webp&s=b1458696bf12af83b53a702011e144f96be837fb",
+    Nombre: "Armed Thunder Dragon",
+    Tipo: "Control",
+    Atributo: "Luz",
+    Valor: "150 USD",
+    descr:
+      "Much like the original Armed Dragons, this Deck wants to level up your Armed Dragon Thunders for increasingly powerful effects. Armed Dragon Thunder LV10 and Armed Dragon LV10 White are your big finishers",
+  },
+  {
+    src: "https://ms.yugipedia.com//1/13/DualAvatarInvitation-MADU-EN-VG-artwork.pngg",
+    Nombre: "Dual Avatar",
+    Tipo: "Control",
+    Atributo: "Luz",
+    Valor: "150 USD",
+    descr:
+      "This archetype has only two different monsters in the Main Deck! Dual Avatar Feet – Kokoku and Dual Avatar Fists – Yuhi are your two monsters, each of which you’ll use to Fusion Materials for four different Dual Avatar Fusion Monsters",
+  },
+  {
+    src: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13714538-e319-4cce-9062-6941ce18525d/dfaxrvr-a157c8ae-29fb-4d7a-99cd-8a77b5c82da3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEzNzE0NTM4LWUzMTktNGNjZS05MDYyLTY5NDFjZTE4NTI1ZFwvZGZheHJ2ci1hMTU3YzhhZS0yOWZiLTRkN2EtOTljZC04YTc3YjVjODJkYTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vi199FLwcx_uhs9_IEcrePi5asSMmAVGfPZCnwVOG08",
+    Nombre: "Live☆Twin",
+    Tipo: "Control",
+    Atributo: "Luz",
+    Valor: "150 USD",
+    descr:
+      "¿The Live☆Twin Deck features Live☆Twin Ki-sikil and Live☆Twin Lil-la, live streamers by day who become the phantom thieves Evil★Twins Ki-sikil & Lil-la by night! Each Twin’s cards either help you play the other Twin or are improved when you already have the other",
+  },
 ];
 let cardContent2 = "";
 for (const arriendo of arriendos) {
@@ -37,6 +73,7 @@ for (const arriendo of arriendos) {
       <h5>Valor: ${arriendo.Valor}</h5>
       <p>Tipo: ${arriendo.Tipo}<p>
       <p>${arriendo.descr}</p>
+      <button class="bt-3">Arrendar</button>
     </div>
   `;
 }
