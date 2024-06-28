@@ -9,8 +9,10 @@
     "banner banner banner"
     "Tventa Tventa Tventa"
     "main main main"
+    "bt-1 bt-1 bt-1"
     "Tarriendo Tarriendo Tarriendo"
-    "rent rent rent";
+    "rent rent rent"
+    "bt-2 bt-2 bt-2";
 }
 .barra-navegacion {
   grid-area: navbar;
@@ -19,14 +21,17 @@
 .banner {
   grid-area: banner;
   display: flex;
+  justify-content: center;
 }
 .Tventas {
   display: grid;
   grid-area: Tventa;
+  margin-left: 200px;
 }
 .Tarriendo {
   display: grid;
   grid-area: Tarriendo;
+  margin-left: 200px;
 }
 .cards-box {
   display: grid;
@@ -42,6 +47,14 @@
   margin-left: 200px;
   margin-right: 200px;
 }
+
+.bt-1 {
+  grid-area:bt-1;
+}
+.bt-2 {
+  grid-area:bt-2;
+}
+
 
 /*Recordar que los .js crean un div con la clase dada*/
 .mazo {
