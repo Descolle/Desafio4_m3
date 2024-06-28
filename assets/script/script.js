@@ -37,6 +37,7 @@ for (const mazo of mazos) {
       <h5>Valor: ${mazo.Valor}</h5>
       <p>Tipo: ${mazo.Tipo}<p>
       <p>${mazo.descr}</p>
+      <button class="bt-4">Comprar</button>
     </div>
   `;
 }
@@ -81,6 +82,7 @@ for (const arriendo of arriendos) {
       <h5>Valor: ${arriendo.Valor}</h5>
       <p>Tipo: ${arriendo.Tipo}<p>
       <p>${arriendo.descr}</p>
+      <button class="bt-3">Arrendar</button>
     </div>
   `;
 }

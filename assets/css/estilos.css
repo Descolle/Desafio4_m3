@@ -71,6 +71,12 @@
   color: white;
 }
 
+.bt-4 {
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
 /*Recordar que los .js crean un div con la clase dada*/
 .mazo {
   width: 300px;
