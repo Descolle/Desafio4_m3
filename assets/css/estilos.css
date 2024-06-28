@@ -32,11 +32,15 @@
   display: grid;
   grid-area: main;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .cards-box2 {
   display: grid;
   grid-area: rent;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /*Recordar que los .js crean un div con la clase dada*/
