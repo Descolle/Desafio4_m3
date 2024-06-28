@@ -82,4 +82,34 @@ border: 1px solid #ccc
 }
 
 
-/* Aca va el CSS de la página de arriendo.
+/* Aca va el CSS de la página de arriendo.*/
+
+.Father-container2 {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "banner banner banner"
+    "Tarriendo Tarriendo Tarriendo"
+    "rent2 rent2 rent2"
+}
+.barra-navegacion {
+  grid-area: navbar;
+  background-color: violet;
+}
+.banner {
+  grid-area: banner;
+  display: flex;
+  justify-content: center;
+}
+.Tarriendo {
+  display: grid;
+  grid-area: Tarriendo;
+  margin-left: 200px;
+}
+.cards-box2V {
+  display: grid;
+  grid-area: rent2;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 200px;
+  margin-right: 200px;
+}
