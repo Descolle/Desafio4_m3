@@ -37,8 +37,14 @@ for (const mazo of mazos) {
       <h5>Valor: ${mazo.Valor}</h5>
       <p>Tipo: ${mazo.Tipo}<p>
       <p>${mazo.descr}</p>
+      <p class="${mazo.disponible ? "text-success" : "text-danger"}>
+      <i class="${mazo.disponible ? "fa-solid fa-check" : "ffa-solid fa-x"}></i> ${mazo.disponible ? "Disponible" : "No Disponible"}
+      </p>
       <button class="bt-4">Comprar</button>
     </div>
   `;
 }
 card.innerHTML = cardContent;
+
+//fa-solid fa-check para si
+//"fa-solid fa-x para no
