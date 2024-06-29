@@ -77,7 +77,7 @@ for (const arriendo of arriendos) {
     <div class='mazo'>
       <img src="${arriendo.src}" alt="${arriendo.Nombre}">
       <h5>Mazo: ${arriendo.Nombre}</h5>
-      <h5>Valor en caso de perdida: ${arriendo.Valor}</h5>
+      <h5>Valor en caso de perdida: <i class="fa-solid fa-dollar-sign"></i>${arriendo.Valor}</h5>
       <p>Tipo: ${arriendo.Tipo}<p>
       <p>${arriendo.descr}</p>
       <p class="${arriendo.disponible ? "text-success" : "text-danger"}">

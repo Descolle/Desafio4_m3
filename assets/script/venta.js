@@ -34,7 +34,7 @@ for (const mazo of mazos) {
     <div class='mazo'>
       <img src="${mazo.src}" alt="${mazo.Nombre}">
       <h5>Mazo: ${mazo.Nombre}</h5>
-      <h5>Valor: ${mazo.Valor}</h5>
+      <h5>Valor: <i class="fa-solid fa-dollar-sign"></i>${mazo.Valor}</h5>
       <p>Tipo: ${mazo.Tipo}<p>
       <p>${mazo.descr}</p>
       <p class="${mazo.disponible ? "text-success" : "text-danger"}">
