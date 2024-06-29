@@ -80,8 +80,8 @@ for (const arriendo of arriendos) {
       <h5>Valor: ${arriendo.Valor}</h5>
       <p>Tipo: ${arriendo.Tipo}<p>
       <p>${arriendo.descr}</p>
-      <p class="${arriendo.disponible ? "text-success" : "text-danger"}>
-      <i class="${arriendo.disponible ? "fa-solid fa-check" : "fa-solid fa-x"}></i> ${arriendo.disponible ? "Disponible" : "No Disponible"}
+      <p class="${arriendo.disponible ? "text-success" : "text-danger"}">
+      <i class="${arriendo.disponible ? "fa-solid fa-check" : "fa-solid fa-x"}"></i> ${arriendo.disponible ? "Disponible" : "No Disponible"}
       </p>
       <button class="bt-3">Arrendar</button>
     </div>

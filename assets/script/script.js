@@ -8,7 +8,7 @@ const mazos = [
     Valor: "200 USD",
     descr:
       "mazo centrado en botar cartas del mazo al cementerio para activar poderosos efectos que permitiran acceso al Mazo Extra invocando poderosos Monstruos de Fusión",
-    disponible: true,
+    disponible: false,
   },
   {
     src: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf713fd6-bbfa-4049-9ccf-a366f09ebe02/dgg6aqo-e8a7ba10-1601-460f-8dd2-bb55d0022ecb.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmNzEzZmQ2LWJiZmEtNDA0OS05Y2NmLWEzNjZmMDllYmUwMlwvZGdnNmFxby1lOGE3YmExMC0xNjAxLTQ2MGYtOGRkMi1iYjU1ZDAwMjJlY2IuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NflpTahe8MU7sPXimyae_Gj3xnxyL3aWWfe-lLBnOWk",
@@ -27,7 +27,7 @@ const mazos = [
     Atributo: "Luz",
     Valor: "150 USD",
     descr: "¿Quién necesita grandes monstruos cuando puedes tener gatitos",
-    disponible: true,
+    disponible: false,
   },
 ];
 let cardContent = "";
@@ -39,8 +39,8 @@ for (const mazo of mazos) {
       <h5>Valor: ${mazo.Valor}</h5>
       <p>Tipo: ${mazo.Tipo}<p>
       <p>${mazo.descr}</p>
-      <p class="${mazo.disponible ? "text-success" : "text-danger"}>
-      <i class="${mazo.disponible ? "fa-solid fa-check" : "fa-solid fa-x"}></i> ${mazo.disponible ? "Disponible" : "No Disponible"}
+      <p class="${mazo.disponible ? "text-success" : "text-danger"}">
+      <i class="${mazo.disponible ? "fa-solid fa-check" : "fa-solid fa-x"}"></i> ${mazo.disponible ? "Disponible" : "No Disponible"}
       </p>
       <button class="bt-4">Comprar</button>
     </div>
@@ -90,8 +90,8 @@ for (const arriendo of arriendos) {
       <h5>Valor: ${arriendo.Valor}</h5>
       <p>Tipo: ${arriendo.Tipo}<p>
       <p>${arriendo.descr}</p>
-      <p class="${arriendo.disponible ? "text-success" : "text-danger"}>
-      <i class="${arriendo.disponible ? "fa-solid fa-check" : "fa-solid fa-x"}></i> ${arriendo.disponible ? "Disponible" : "No Disponible"}
+      <p class="${arriendo.disponible ? "text-success" : "text-danger"}">
+      <i class="${arriendo.disponible ? "fa-solid fa-check" : "fa-solid fa-x"}"></i> ${arriendo.disponible ? "Disponible" : "No Disponible"}
       </p>
       <button class="bt-3">Arrendar</button>
     </div>
