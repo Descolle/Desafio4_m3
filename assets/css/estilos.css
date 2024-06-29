@@ -16,7 +16,11 @@
 }
 .barra-navegacion {
   grid-area: navbar;
-  background-color: violet;
+  background-color: #007EA7;
+}
+.fa-fort-awesome {
+  font-size: 30px;
+  margin-right: 10px;
 }
 .banner {
   grid-area: banner;
@@ -80,6 +84,10 @@
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 /*Recordar que los .js crean un div con la clase dada*/
 .mazo {
   width: 300px;
@@ -108,7 +116,7 @@
 }
 .barra-navegacion {
   grid-area: navbar;
-  background-color: violet;
+  background-color: #007EA7;
 }
 .banner {
   grid-area: banner;
