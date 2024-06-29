@@ -7,7 +7,7 @@ const arriendos = [
     Atributo: "Oscuridad",
     Valor: "200 USD",
     descr:
-      "Rituals. Fusions. Synchros. Xyz. It’s so hard to choose a direction for your Deck, but Magikeys open the door to all these possibilities!",
+      "Rituals. Fusions. Synchros. Xyz. It’s so hard to choose a direction for your Deck, but Magikeys ...",
       disponible: true
   },
   {
@@ -17,7 +17,7 @@ const arriendos = [
     Atributo: "Oscuridad",
     Valor: "100 USD",
     descr:
-      "The S-Force monsters utilize the field’s columns to control the game. Any opposing monster that shares a column with an S-Force will have some kind of negative effect applied.",
+      "The S-Force monsters utilize the field’s columns to control the game. Any opposing monster that shares a column with an S-Force ...",
       disponible: true
   },
   {
@@ -37,7 +37,7 @@ const arriendos = [
     Atributo: "Luz",
     Valor: "150 USD",
     descr:
-      "This Deck is focused on Amazement Administrator Arlekino, along with the many Attractions at his show! The Attractions are Trap Cards that equip to monsters ...",
+      "This Deck is focused on Amazement Administrator Arlekino, along with the many Attractions  ...",
       disponible: true
   },
   {
@@ -47,7 +47,7 @@ const arriendos = [
     Atributo: "Luz",
     Valor: "150 USD",
     descr:
-      "Much like the original Armed Dragons, this Deck wants to level up your Armed Dragon Thunders for increasingly powerful effects...",
+      "Much like the original Armed Dragons, this Deck wants to level up your Armed Dragon Thunders for ...",
       disponible: false
   },
   {
@@ -67,7 +67,7 @@ const arriendos = [
     Atributo: "Luz",
     Valor: "150 USD",
     descr:
-      "¿The Live☆Twin Deck features Live☆Twin Ki-sikil and Live☆Twin Lil-la, live streamers by day who become the phantom thieves...",
+      "¿The Live☆Twin Deck features Live☆Twin Ki-sikil and Live☆Twin Lil-la, live streamers by day who ...",
       disponible: false
   },
 ];
