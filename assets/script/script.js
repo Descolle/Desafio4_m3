@@ -55,7 +55,7 @@ const arriendos = [
     Nombre: "Magistus",
     Tipo: "Control/Aggro",
     Atributo: "Oscuridad",
-    Valor: "200 USD",
+    Valor: "50 USD",
     descr:
       "Rituals. Fusions. Synchros. Xyz. It’s so hard to choose a direction for your Deck, but Magikeys open the door to all these possibilities!",
       disponible: true
@@ -65,7 +65,7 @@ const arriendos = [
     Nombre: "S-Force",
     Tipo: "Control",
     Atributo: "Oscuridad",
-    Valor: "100 USD",
+    Valor: "70 USD",
     descr:
       "The S-Force monsters utilize the field’s columns to control the game. Any opposing monster that shares a column with an S-Force will have some kind of negative effect applied.",
       disponible: true
@@ -75,7 +75,7 @@ const arriendos = [
     Nombre: "Toon",
     Tipo: "Control",
     Atributo: "Luz",
-    Valor: "150 USD",
+    Valor: "250 USD",
     descr:
       "¿Quieres sentirte como Maximilian Pegasus? Con este mazo Toon podras hacer todas las jugadas que quieras",
       disponible: false
@@ -87,7 +87,7 @@ for (const arriendo of arriendos) {
     <div class='mazo'>
       <img src="${arriendo.src}" alt="${arriendo.Nombre}">
       <h5>Mazo: ${arriendo.Nombre}</h5>
-      <h5>Valor: ${arriendo.Valor}</h5>
+      <h5>Valor en caso de perdida: ${arriendo.Valor}</h5>
       <p>Tipo: ${arriendo.Tipo}<p>
       <p>${arriendo.descr}</p>
       <p class="${arriendo.disponible ? "text-success" : "text-danger"}">

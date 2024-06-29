@@ -40,6 +40,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 200px;
   margin-right: 200px;
+  justify-items: center;
 }
 .cards-box2 {
   display: grid;
@@ -47,21 +48,22 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 200px;
   margin-right: 200px;
+  justify-items: center;
 }
 
 .bt-1 {
-  grid-area:bt-1;
+  grid-area: bt-1;
   grid-template-columns: repeat(8, 1fr);
   grid-column: 1 / 3;
-  margin-left: 200px;
+  margin-left: 233px;
   border-radius: 5px;
   background-color: black;
   color: white;
 }
 .bt-2 {
-  grid-area:bt-2;
+  grid-area: bt-2;
   grid-column: 1 / 3;
-  margin-left: 200px;
+  margin-left: 233px;
   border-radius: 5px;
   background-color: black;
   color: white;
@@ -89,11 +91,10 @@
 }
 
 .mazo img {
-width: 20vh;
-height: 20vh;
-border: 1px solid #ccc
+  width: 20vh;
+  height: 20vh;
+  border: 1px solid #ccc;
 }
-
 
 /* Aca va el CSS de la página de arriendo.*/
 
@@ -103,7 +104,7 @@ border: 1px solid #ccc
     "navbar navbar navbar"
     "banner banner banner"
     "Tarriendo Tarriendo Tarriendo"
-    "rent2 rent2 rent2"
+    "rent2 rent2 rent2";
 }
 .barra-navegacion {
   grid-area: navbar;

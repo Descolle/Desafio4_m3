@@ -37,7 +37,7 @@ const arriendos = [
     Atributo: "Luz",
     Valor: "150 USD",
     descr:
-      "This Deck is focused on Amazement Administrator Arlekino, along with the many Attractions at his show! The Attractions are Trap Cards that equip to monsters and apply different effects based on who controls that monster",
+      "This Deck is focused on Amazement Administrator Arlekino, along with the many Attractions at his show! The Attractions are Trap Cards that equip to monsters ...",
       disponible: true
   },
   {
@@ -47,7 +47,7 @@ const arriendos = [
     Atributo: "Luz",
     Valor: "150 USD",
     descr:
-      "Much like the original Armed Dragons, this Deck wants to level up your Armed Dragon Thunders for increasingly powerful effects. Armed Dragon Thunder LV10 and Armed Dragon LV10 White are your big finishers",
+      "Much like the original Armed Dragons, this Deck wants to level up your Armed Dragon Thunders for increasingly powerful effects...",
       disponible: false
   },
   {
@@ -55,7 +55,7 @@ const arriendos = [
     Nombre: "Dual Avatar",
     Tipo: "Control",
     Atributo: "Luz",
-    Valor: "150 USD",
+    Valor: "30 USD",
     descr:
       "This archetype has only two different monsters in the Main Deck! Dual Avatar Feet – Kokoku and Dual Avatar Fists – Yuhi are your two monsters, each of which you’ll use to Fusion Materials for four different Dual Avatar Fusion Monsters",
       disponible: true
@@ -67,7 +67,7 @@ const arriendos = [
     Atributo: "Luz",
     Valor: "150 USD",
     descr:
-      "¿The Live☆Twin Deck features Live☆Twin Ki-sikil and Live☆Twin Lil-la, live streamers by day who become the phantom thieves Evil★Twins Ki-sikil & Lil-la by night! Each Twin’s cards either help you play the other Twin or are improved when you already have the other",
+      "¿The Live☆Twin Deck features Live☆Twin Ki-sikil and Live☆Twin Lil-la, live streamers by day who become the phantom thieves...",
       disponible: false
   },
 ];
@@ -77,7 +77,7 @@ for (const arriendo of arriendos) {
     <div class='mazo'>
       <img src="${arriendo.src}" alt="${arriendo.Nombre}">
       <h5>Mazo: ${arriendo.Nombre}</h5>
-      <h5>Valor: ${arriendo.Valor}</h5>
+      <h5>Valor en caso de perdida: ${arriendo.Valor}</h5>
       <p>Tipo: ${arriendo.Tipo}<p>
       <p>${arriendo.descr}</p>
       <p class="${arriendo.disponible ? "text-success" : "text-danger"}">
